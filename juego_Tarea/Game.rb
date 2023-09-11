@@ -11,6 +11,7 @@ class Mastermind
  
   def play
     puts 'Bienvenido a Mastermind!'
+    puts 'veamos de qué estás hecho'
     puts '¿Deseas ser el creador del código (C) o el adivinador (A)?'
     choice = gets.chomp.downcase
 
